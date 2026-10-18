@@ -1,3 +1,9 @@
+/*
+=============================================================
+Stored Procedure: Load bronze layer
+This sp load data into the "bronze" schema from external csv files.
+=============================================================
+*/
 exec bronze.load_bronze;
 
 alter procedure bronze.load_bronze as
